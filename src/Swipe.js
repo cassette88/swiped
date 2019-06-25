@@ -1,6 +1,5 @@
 import React, { Component } from 'react'
 import SwipeableViews from 'react-swipeable-views';
-import Fade from 'react-reveal/Fade';
 import './Swipe.css'
 import A from './A';
 import B from './B';
