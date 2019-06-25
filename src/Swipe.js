@@ -2,6 +2,9 @@ import React, { Component } from 'react'
 import SwipeableViews from 'react-swipeable-views';
 import Fade from 'react-reveal/Fade';
 import './Swipe.css'
+import A from './A';
+import B from './B';
+import C from './C';
 
 
 export default class Swipe extends Component {
@@ -12,6 +15,9 @@ export default class Swipe extends Component {
                <div> <h3 className="fade-in">Slide #1</h3></div>
                <div><h3> Slide #2</h3></div>
                <div><h3 className="fade-in">Slide #3 </h3></div>
+               <A></A>
+               <div><B/></div>
+               <div><C/></div>
             </SwipeableViews>
            
         )
